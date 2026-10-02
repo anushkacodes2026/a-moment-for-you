@@ -1,1 +1,43 @@
+#include <stdio.h>
 
+int main()
+{
+    int choice;
+
+    printf("=================================\n");
+    printf("       A MOMENT FOR YOU 🌱\n");
+    printf("=================================\n");
+
+    printf("\nChoose what you need today:\n");
+    printf("1. Encouragement\n");
+    printf("2. Calm\n");
+    printf("3. Motivation\n");
+
+    printf("\nEnter your choice: ");
+    scanf("%d", &choice);
+
+    if (choice == 1)
+    {
+        printf("\nYou are doing better than you think.\n");
+        printf("Give yourself credit for how far you've come. 🌤️\n");
+    }
+    else if (choice == 2)
+    {
+        printf("\nTake a slow breath and give yourself a moment.\n");
+        printf("You don't have to solve everything right now. 🕊️\n");
+    }
+    else if (choice == 3)
+    {
+        printf("\nKeep going at your own pace.\n");
+        printf("Your small efforts today are building your future. 🌱\n");
+    }
+    else
+    {
+        printf("\nPlease enter a valid choice.\n");
+    }
+
+    printf("\n---------------------------------\n");
+    printf("A small reminder from Anushka Chavan ✨\n");
+
+    return 0;
+}
